@@ -1,0 +1,10 @@
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = [
+    "E",    # style errors
+    "F",    # logic errors
+    "N",    # naming checks
+    "ANN",  # requires type hints on functions
+]
